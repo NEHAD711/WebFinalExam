@@ -1,0 +1,21 @@
+{% extends 'books/base.html' %}
+{% load static %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+<h2>Welcome to Online Bookstore</h2>
+
+<img src="{% static 'images/Book7.png' %}" alt="Book Image" width="300">
+
+<h3>Bookstore Services</h3>
+
+<ol>
+    <li>Browse Books</li>
+    <li>View Book Details</li>
+    <li>Add a Book</li>
+    <li>Search Books</li>
+</ol>
+
+{% endblock %}
